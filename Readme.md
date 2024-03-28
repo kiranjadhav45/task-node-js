@@ -97,9 +97,9 @@ Delete an existing product.
 
 ## Note
 
-This project might not run locally due to the dependency on Cloudinary credentials. However, it has been deployed to Cloudinary, and you can access it using the provided URL. The deployed version works the same as if you had added credentials locally.
+This project might not run locally due to the dependency on Cloudinary credentials. However, it has been deployed on digital ocean, and you can access it using the provided URL. The deployed version works the same as if you had added credentials locally.
 
-Deployment URL: [Link to the deployed project](http://139.59.25.193:9001)
+Deployment URL: [http://139.59.25.193:9001](http://139.59.25.193:9001)
 
 ## Installation
 

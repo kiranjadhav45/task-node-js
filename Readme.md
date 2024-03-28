@@ -102,7 +102,8 @@ This project might not run locally due to the dependency on Cloudinary credentia
 <!-- Deployment URL: [http://139.59.25.193:9001](http://139.59.25.193:9001)
 Deployment URL Sample : [http://139.59.25.193:9001/api/v1/products?page=1&pageSize=10](http://139.59.25.193:9001/api/v1/products?page=1&pageSize=10) -->
 
-Deployment URL: [http://139.59.25.193:9001](http://139.59.25.193:9001)  
+Deployment URL: [http://139.59.25.193:9001](http://139.59.25.193:9001).
+
 Deployment URL Sample : [http://139.59.25.193:9001/api/v1/products?page=1&pageSize=10](http://139.59.25.193:9001/api/v1/products?page=1&pageSize=10)
 
 ## Installation

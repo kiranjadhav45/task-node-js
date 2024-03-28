@@ -48,17 +48,7 @@ const createProduct = asyncHandler(async (req, resp) => {
         const url = req.productURL.url
         const { name, price, description } = req?.body;
         console.log("first")
-        // if (!user) {
-        //     return resp
-        //         .status(400)
-        //         .json({
-        //             status: false,
-        //             statusCode: 404,
-        //             message: "user not found"
-        //         })
-        // }
         const createProduct = await Product.create({ name, price, description, image: url })
-        console.log(createProduct)
         return resp
             .status(200)
             .json({

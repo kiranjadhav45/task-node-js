@@ -52,7 +52,7 @@ create products.
   POST http://139.59.25.193:9001/api/v1/products/create
   ```
 
-#### Get Products
+#### update Products
 
 Update an existing product.
 
@@ -74,4 +74,23 @@ Update an existing product.
 
   ```http
   PUT http://139.59.25.193:9001/api/v1/products/update/123
+  ```
+
+#### Delete Products
+
+Delete an existing product.
+
+- **URL**
+
+  `/api/v1/products/delete/:id`
+
+- **Method**
+
+  `DELETE`
+
+- **Sample Request**
+
+  ```http
+  DELETE http://139.59.25.193:9001/api/v1/products/delete/123
+
   ```

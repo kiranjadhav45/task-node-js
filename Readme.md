@@ -29,7 +29,7 @@ Retrieve a list of products.
 
 #### POST Products
 
-Retrieve a list of products.
+create products.
 
 - **URL**
 
@@ -50,4 +50,28 @@ Retrieve a list of products.
 
   ```http
   POST http://139.59.25.193:9001/api/v1/products/create
+  ```
+
+#### Get Products
+
+Update an existing product.
+
+- **URL**
+
+  `/api/v1/products/update/:id`
+
+- **Method**
+
+  `PUT`
+
+- **body json data**
+
+  - `name`: Product name
+  - `price`: Product price
+  - `description`: Product description
+
+- **Sample Request**
+
+  ```http
+  PUT http://139.59.25.193:9001/api/v1/products/update/123
   ```

@@ -94,3 +94,36 @@ Delete an existing product.
   DELETE http://139.59.25.193:9001/api/v1/products/delete/123
 
   ```
+
+## Note
+
+This project might not run locally due to the dependency on Cloudinary credentials. However, it has been deployed to Cloudinary, and you can access it using the provided URL. The deployed version works the same as if you had added credentials locally.
+
+Deployment URL: [Link to the deployed project](http://139.59.25.193:9001)
+
+## Installation
+
+To install and run this project locally, follow these steps:
+
+1. Clone the repository to your local machine using the following command:
+
+   ```bash
+   git clone https://github.com/kiranjadhav45/task-node-js.git
+   ```
+
+2. go to the project directory:
+
+   ```bash
+    cd task-node-js
+   ```
+
+3. install pakages:
+
+   ```bash
+   npm install
+   ```
+
+4. start dev server:
+   ```bash
+   npm run dev
+   ```
